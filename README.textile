@@ -10,11 +10,9 @@ Ajaxian: http://ajaxian.com/archives/humanized-messages-library
 
 h2. About this fork
 
-I have made the message log feature optional, and made it possible to modify the 
-timeout before a message fades away.
+I have made the message log feature optional, and made it possible to modify the timeout before a message fades away.
 
-The default is for the message not to disappear until a mouse or keyboard event.
-The message log is also disabled now by default.
+The default is for the message not to disappear until a mouse or keyboard event. The message log is also disabled now by default.
 
 h3. Requirements
 
