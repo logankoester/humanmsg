@@ -37,7 +37,9 @@ For the CSS to work, particularly in Internet Explorer, make sure your DOCTYPE i
 
 Once that's done, all you do to send a message is send it a string via javascript, like so:
 
+<code>
 humanMsg.displayMsg("That's No Moon");
+</code>
 
 And voila, you've got transparent non-modal messages. And there was much rejoicing.
 
