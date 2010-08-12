@@ -16,6 +16,10 @@
 
 	<script>
 	jQuery(document).ready(function() {
+
+    humanMsg.logging = true;
+    humanMsg.timeout = 5000;
+
 		jQuery('a.showmessage').click(function() {
 			humanMsg.displayMsg('<strong>Success:</strong> <span class="indent">You clicked \''+jQuery(this).text()+'\'</span>');
 			return false;

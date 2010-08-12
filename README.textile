@@ -1,0 +1,53 @@
+h1. Humanized Messages
+
+Humanized Messages is a javascript-based system for non-model notifications, from an idea by Jef Raskin, as relayed by Aza Raskin and adapted for jQuery and initially for use with K2 by Michael Heilemann.
+
+"Transparent messages are the brainchild of Jef Raskin. It's simply a large and translucent message that's displayed over the contents of your screen. They fade away when the user takes any action (like typing or moving the mouse). In practice, the message is both noticeable yet unobtrusive. And because the message is transparent, you can see what's beneath it. It's just humane."
+
+Original: http://code.google.com/p/humanmsg/
+Ajaxian: http://ajaxian.com/archives/humanized-messages-library
+
+
+h2. About this fork
+
+I have made the message log feature optional, and made it possible to modify the 
+timeout before a message fades away.
+
+The default is for the message not to disappear until a mouse or keyboard event.
+The message log is also disabled now by default.
+
+h3. Requirements
+
+Humane Messages requires the jQuery javascript library. Also recommended, but not required, is the jQuery plugin, "Easing":http://gsgd.co.uk/sandbox/jquery/easing/ to give just the right bounce to the animations.
+
+h3. Usage
+
+To use Humane Messages, include the JS and CSS files in your page's 'head':
+
+<code>
+  <script type="text/javascript" src="message.js"></script>
+  <link href="message.css" media="screen" type="text/css" rel="stylesheet">
+</code>
+
+For the CSS to work, particularly in Internet Explorer, make sure your DOCTYPE is correct, like this:
+
+<code>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+</code>
+
+Once that's done, all you do to send a message is send it a string via javascript, like so:
+
+humanMsg.displayMsg("That's No Moon");
+
+And voila, you've got transparent non-modal messages. And there was much rejoicing.
+
+To enable the message log:
+<code>
+  humanMsg.logging = true;
+</code>
+
+and to set a timeout to fade away a message:
+
+<code>
+  humanMsg.timeout = 5000;
+</code>
