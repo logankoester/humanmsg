@@ -4,8 +4,9 @@ Humanized Messages is a javascript-based system for non-model notifications, fro
 
 "Transparent messages are the brainchild of Jef Raskin. It's simply a large and translucent message that's displayed over the contents of your screen. They fade away when the user takes any action (like typing or moving the mouse). In practice, the message is both noticeable yet unobtrusive. And because the message is transparent, you can see what's beneath it. It's just humane."
 
-Original: http://code.google.com/p/humanmsg/
-Ajaxian: http://ajaxian.com/archives/humanized-messages-library
+Original: "http://code.google.com/p/humanmsg/":http://code.google.com/p/humanmsg/
+Ajaxian: "http://ajaxian.com/archives/humanized-messages-library":http://ajaxian.com/archives/humanized-messages-library
+!http://logankoester.com/images/humanmsg.gif!
 
 
 h2. About this fork
