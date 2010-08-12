@@ -6,6 +6,7 @@ Humanized Messages is a javascript-based system for non-model notifications, fro
 
 Original: "http://code.google.com/p/humanmsg/":http://code.google.com/p/humanmsg/
 Ajaxian: "http://ajaxian.com/archives/humanized-messages-library":http://ajaxian.com/archives/humanized-messages-library
+
 !http://logankoester.com/images/humanmsg.gif!
 
 
